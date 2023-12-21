@@ -10,5 +10,11 @@
 // My solution
 
 function monkeyCount(n) {
-  // your code here
+  let res = []
+  for (let i = 1; i <= n; i++) {
+    res.push(i)
+  }
+  return res
 }
+
+console.log(monkeyCount(3))
